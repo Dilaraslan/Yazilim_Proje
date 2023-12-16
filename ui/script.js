@@ -4,6 +4,16 @@ document.querySelector("#search-button").onclick = ()=> {
   searchForm.classList.toggle("active")
 }
 
+/*anasayfa sağüstteki user simgesiyle login*/
+let loginForm = document.querySelector('.login-form-container');
+document.querySelector('#login-btn').onclick = () => {
+  loginForm.classList.toggle('active');
+}
+/*close tuşunun anasayfaya geçmesini sağlayan kısım*/
+document.querySelector('#close-login-btn').onclick = () => {
+  loginForm.classList.remove('active');
+}
+
 /*ekranı indirdiğimizde header2'nin ekranda kalması için*/
 window.onscroll = () => {
   if (window.scrollY > 80) {

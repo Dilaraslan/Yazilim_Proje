@@ -14,6 +14,7 @@
 
 <body>
 
+    <!-- search bar, icons ve logonun olduğu kısım -->
     <header class="header">
         <div class="header1">
             <a href="#" class="logo"> <i class="fas fa-book"> pdf hunter</i></a>
@@ -25,11 +26,12 @@
 
             <div class="icons">
                 <div id="search-button" class="fas fa-search"></div>
-                <a href="#" class="fas fa-heart"></a>
-                <div id="login-button" class="fas fa-user"></div>
+                <div id="login-btn" class="fas fa-user"></div>
+                <a href="https://github.com/Dilaraslan/Yazilim_Proje" class="fa-brands fa-github"></a>
             </div>
         </div>
 
+        <!-- linklerin olduğu ikinci kısım -->
         <div class="header2">
 
             <nav class="navbar">
@@ -41,6 +43,40 @@
         </div>
 
     </header>
+
+    <!-- bu kısımda bottom navbar olacak(mobil için) -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#PDFs" class="fas fa-list"></a>
+        <a href="#Upcoming" class="fas fa-bolt"></a>
+        <a href="#contact" class="fas fa-user"></a>
+
+    </nav>
+
+<!-- login ekranı -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>login</h3>
+        <span>username</span>
+        <input type="email" name="" placeholder="enter your email.." class="box" >
+
+        <span>password</span>
+        <input type="password" name="" placeholder="enter your password.." class="box" >
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login" class="btn">
+        <p> forget password ? <a href="#"> click here</a></p>
+        <p> don't have an account ? <a href="#"> create one </a></p>
+    </form>
+</div>
+
 </body>
 
 <script src="script.js"></script>
