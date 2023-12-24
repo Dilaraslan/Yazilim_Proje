@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LibraryManagement
+build_property.RootNamespace = LibraryManagement
+build_property.ProjectDir = C:\Users\berka\Source\Repos\Yazilim_Proje\LibraryManagement\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\berka\Source\Repos\Yazilim_Proje\LibraryManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/AdminModels/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Nb2RlbHNcRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/AdminModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Nb2RlbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/AdminModels/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Nb2RlbHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/CustomerModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJNb2RlbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/CustomerModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJNb2RlbHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/CustomerModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJNb2RlbHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/CustomerModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJNb2RlbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/CustomerModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJNb2RlbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/LibraryModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1vZGVsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/LibraryModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1vZGVsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/LibraryModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1vZGVsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/LibraryModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1vZGVsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/LibraryModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1vZGVsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/LibraryModels/ViewPdf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1vZGVsc1xWaWV3UGRmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/LibraryModels/ViewPhoto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1vZGVsc1xWaWV3UGhvdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/Source/Repos/Yazilim_Proje/LibraryManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zogy9lo6il

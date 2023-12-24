@@ -1,0 +1,14 @@
+﻿@model IEnumerable<LibraryManagement.Models.AdminModel>
+
+@{
+    if (User.Identity.IsAuthenticated)
+    {
+    // Giriş yapılmışsa Dashboard'a yönlendir
+        <script>window.location.href = "/AdminModels/Dashboard";</script>
+    }
+    else
+    {
+    // Giriş yapılmamışsa Login sayfasına yönlendir
+        <script>window.location.href = "/AdminModels/Login";</script>
+    }
+}
