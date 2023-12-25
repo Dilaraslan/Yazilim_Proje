@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF HUNTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-form-container">
+        <form id="loginForm">
+            <h3>login</h3>
+            <span>username</span>
+            <input type="email" id="username" placeholder="enter your email.." class="box">
+    
+            <span>password</span>
+            <input type="password" id="password" placeholder="enter your password.." class="box">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="button" value="login" class="btn" onclick="validateLogin()">
+            <p>don't have an account? <a href="sign.html">create one</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

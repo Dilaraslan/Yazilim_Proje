@@ -9,10 +9,7 @@ let loginForm = document.querySelector('.login-form-container');
 document.querySelector('#login-btn').onclick = () => {
   loginForm.classList.toggle('active');
 }
-/*close tuşunun anasayfaya geçmesini sağlayan kısım*/
-document.querySelector('#close-login-btn').onclick = () => {
-  loginForm.classList.remove('active');
-}
+
 
 /*ekranı indirdiğimizde header2'nin ekranda kalması için*/
 window.onscroll = () => {
@@ -31,3 +28,21 @@ window.onload = () => {
     document.querySelector(".header .header2").classList.remove("active");
   }
 };
+
+function redirectToLoginPage() {
+    // Change the action attribute to "login.html" when the form is submitted
+    document.getElementById("registrationForm").action = "login.html";
+}
+
+function validateLogin() {
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+
+    // Kullanıcı adı ve şifre kontrolü
+    if (username === 'admin' && password === 'admin') {
+        // Doğruysa login.html sayfasına yönlendir
+        window.location.href = 'index.html';
+    } else {
+        alert('Invalid username or password. Please try again.');
+    }
+}

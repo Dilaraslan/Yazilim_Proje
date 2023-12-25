@@ -43,282 +43,200 @@ html::-webkit-scrollbar-thumb {
   background: var(--dark-blue);
 }
 
-.btn{
-  margin-top: 1rem;
-  display: inline-block;
-  padding: .9rem 3rem;
-  border-radius: .5rem;
-  color: #fff;
-  background: var(--blue);
-  cursor:pointer;
-  font-size: 1.7rem;
-  font-weight: 500;
-}
 
-.btn:hover{
-background-color: var(--dark-blue);
-}
-
-.header .header1 {
-  background: #fff;
-  padding: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header .header1 .logo {
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color: var(--dark-blue);
-}
-
-.header .header1 .logo i {
-  color: var(--blue);
-}
-
-.header .header1 .search-form {
-  width: 50rem;
-  height: 5rem;
-  border: var(--border);
-  overflow: hidden;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  border-radius: 0.5rem;
-}
-
-.header .header1 .search-form input {
-  font-size: 1.6rem;
-  padding: 0 1.2rem;
-  height: 100%;
-  width: 100%;
-  text-transform: none;
-  color: var(--dark-blue);
-}
-
-.header .header1 .search-form label {
-  font-size: 2.5rem;
-  padding-right: 1.5rem;
-  color: var(--dark-blue);
-  cursor: pointer;
-}
-
-.header .header1 .search-form label:hover {
-  color: var(--blue);
-}
-
-.header .header1 .icons div,
-.header .header1 .icons a {
-  font-size: 2.5rem;
-  margin-left: 1.5rem;
-  color: var(--dark-blue);
-  cursor: pointer;
-}
-
-.header .header1 .icons div:hover,
-.header .header1 .icons a:hover {
-  color: var(--blue);
-}
-
-#search-button {
-  display: none;
-}
-
-.header .header2 {
-  background: var(--blue);
-}
-
-.header .header2 .navbar {
-  text-align: center;
-}
-
-.header .header2 .navbar a {
-  color: #fff;
-  display: inline-block;
-  padding: 1.2rem;
-  font-size: 1.7rem;
-}
-
-.header .header2 .navbar a:hover {
-  background: var(--dark-blue);
-}
-
-.header .header2.active {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-}
-
-body {
-  height: 300rem;
-}
-
-.bottom-navbar {
-  text-align: center;
-  background: var(--blue);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  display: none; /*tam ekran iken gözükmemesinin sebebi*/
-}
-
-.bottom-navbar a {
-  font-size: 2.5rem;
-  padding: 2rem;
-  color: #fff;
-}
-
-.bottom-navbar a:hover {
-  background: var(--dark-blue);
-}
-
-.login-form-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.9);
-  position: fixed;
-  top: 0;
-  right: -105%;
-  z-index: 10000;
-  height: 100%;
-  width: 100%;
-}
-
-.login-form-container.active{
-  right: 0;
-}
-
-.login-form-container form {
-background:#fff;
-border: var(--border);
-width: 40rem;
-padding: 2rem;
-box-shadow: var(--box-shadow);
-border-radius: .5rem;
-margin: 2rem;
-}
-
-.login-form-container form h3 {
-font-size: 2.5rem;
-text-transform: uppercase;
-color: var(--dark-blue);
-text-align: center;
-}
-
-.login-form-container form span {
- display: block;
- font-size: 1.5rem;
- padding-top: 1rem;
-}
-
-.login-form-container form .box{
-  margin: .7rem 0;
-  font-size: 1.6rem;
-  border: var(--border);
-  border-radius: .5rem;
-  padding: 1rem 1.2rem;
-  color: var(--dark-blue);
-  text-transform: none;
-
-}
-
-.login-form-container form .checkbox {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-  padding: 1rem 0;
-}
-
-.login-form-container form label {
- font-size: 1.5rem;
- color: var(--light-color);
- cursor: pointer;
-}
-
-.login-form-container form .btn {
-  text-align: center;
-  width: 100%;
-  margin: 1.5rem 0;
-}
-
-.login-form-container form p{
-  padding-top: .8rem;
-  color: var(--light-color);
-  font-size: 1.5rem;
-}
-
-
-.login-form-container form p a{
-  color: var(--dark-blue);
-  text-decoration: none;
-}
-
-.login-form-container #close-login-btn{
-  position: absolute;
-  top: 1.5rem; right: 2.5rem;
-  font-size: 5rem;
-  color: var(--dark-blue);
-  cursor: pointer;
-}
-
-
-/* media olayları (ekran bölündüğünde ne olacağı)*/
-@media (max-width: 991px) {
-  html {
-    font-size: 55%;
+/* header */ 
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background: var(--blue);
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 500;
   }
+  
+  .btn:hover {
+    background-color: var(--dark-blue);
+  }
+  
   .header .header1 {
-    padding: 2rem;
+    background: #fff;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
-}
-@media (max-width: 768px) {
-html{
-  scroll-padding-top: 0;
-}
-
-body{
-  padding-bottom: 6rem;
-}
-
-  .header .header2 {
+  
+  .header .header1 .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--dark-blue);
+  }
+  
+  .header .header1 .logo i {
+    color: var(--blue);
+  }
+  
+  .header .header1 .search-form {
+    width: 50rem;
+    height: 5rem;
+    border: var(--border);
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+  }
+  
+  .header .header1 .search-form input {
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: var(--dark-blue);
+  }
+  
+  .header .header1 .search-form label {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--dark-blue);
+    cursor: pointer;
+  }
+  
+  .header .header1 .search-form label:hover {
+    color: var(--blue);
+  }
+  
+  .header .header1 .icons div,
+  .header .header1 .icons a {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--dark-blue);
+    cursor: pointer;
+  }
+  
+  .header .header1 .icons div:hover,
+  .header .header1 .icons a:hover {
+    color: var(--blue);
+  }
+  
+  #search-button {
     display: none;
   }
-
-  .bottom-navbar {
-    /*bu da ekran küçüldüğünde gözükmesinin sağlayan kısım*/
-    display: block;
+  
+  .header .header2 {
+    background: var(--blue);
   }
-
-  #search-button {
+  
+  .header .header2 .navbar {
+    text-align: center;
+  }
+  
+  .header .header2 .navbar a {
+    color: #fff;
     display: inline-block;
+    padding: 1.2rem;
+    font-size: 1.7rem;
+  }
+  
+  .header .header2 .navbar a:hover {
+    background: var(--dark-blue);
+  }
+  
+  .header .header2.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  body {
+    height: 300rem;
   }
 
-  .header .header1 {
+
+  /* login */
+
+  .login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    right: -105%;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .login-form-container {
+    right: 0;
+  }
+  
+  .login-form-container form {
+    background: #fff;
+    border: var(--border);
+    width: 40rem;
+    padding: 2rem;
     box-shadow: var(--box-shadow);
-    position: relative;
+    border-radius: 0.5rem;
+    margin: 2rem;
   }
-
-  .header .header1 .search-form {
-    position: absolute;
-    top: -115%;
-    right: 2rem;
-    width: 90%;
-    box-shadow: var(--box-shadow);
+  
+  .login-form-container form h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--dark-blue);
+    text-align: center;
   }
-}
-
-.header .header1 .search-form.active {
-  top: 115%;
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
+  
+  .login-form-container form span {
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
   }
-}
+  
+  .login-form-container form .box {
+    margin: 0.7rem 0;
+    font-size: 1.6rem;
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 1rem 1.2rem;
+    color: var(--dark-blue);
+    text-transform: none;
+  }
+  
+  .login-form-container form .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+  }
+  
+  .login-form-container form label {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+  }
+  
+  .login-form-container form .btn {
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+  
+  .login-form-container form p {
+    padding-top: 0.8rem;
+    color: var(--light-color);
+    font-size: 1.5rem;
+  }
+  
+  .login-form-container form p a {
+    color: var(--dark-blue);
+    text-decoration: none;
+  }
