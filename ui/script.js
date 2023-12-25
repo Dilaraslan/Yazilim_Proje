@@ -48,3 +48,14 @@ function validateLogin() {
     alert("Invalid username or password. Please try again.");
   }
 }
+
+
+/*slider için gerekli fonksiyonlar --swiper.js-- */
+var swiper = new Swiper(".books-slider", {
+  loop: true,
+  breakpoints: {
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
