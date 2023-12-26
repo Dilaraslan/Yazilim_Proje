@@ -319,3 +319,52 @@ section {
   color: var(--light-color);
   font-weight: bold;
 }
+
+/*contact.css*/
+
+ul.cntct {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+ul.cntct li {
+  margin-right: 15px;
+  border: 1px solid #3498db; 
+  padding: 10px; 
+}
+
+ul.cntct li a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+ul.cntct li a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+
+ul.cntct li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*upcoming.css*/
+.image-container {
+  display: inline-block;
+  margin: 10px; 
+  text-align: center; 
+}
+
+.image-container img {
+
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+}
+
+.image-container p {
+  font-size: 18px;
+  margin: 10px 0 0; 
+}
