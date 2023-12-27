@@ -320,51 +320,44 @@ section {
   font-weight: bold;
 }
 
-/*contact.css*/
+/*contact*/
 
-ul.cntct {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-
+.cards {
+  width: 75px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 100px;
 }
 
-ul.cntct li {
-  margin-right: 15px;
-  border: 1px solid #3498db; 
-  padding: 10px; 
+.card {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
-ul.cntct li a {
+.card-img {
+  width: 275px;
+  border-radius: 200px;
+  background-color: var(--dark-blue);
+}
+
+.card-img:hover,
+.card-content:hover {
+  transform: scale(1.1);
+}
+
+.card-content {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-content h2 {
+  margin-top: 5px;
+  letter-spacing: 1.5px;
   text-decoration: none;
-  color: #3498db;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  color: #11009e;
 }
 
-ul.cntct li a:hover {
-  color: #e74c3c;
-  text-decoration: underline;
-}
-
-ul.cntct li:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/*upcoming.css*/
-.image-container {
-  display: inline-block;
-  margin: 10px; 
-  text-align: center; 
-}
-
-.image-container img {
-
-  border: 1px solid #ddd; 
-  border-radius: 8px; 
-}
-
-.image-container p {
-  font-size: 18px;
-  margin: 10px 0 0; 
+.card-content h3 {
+  font-size: 17px;
+  color: #4942e4;
 }
