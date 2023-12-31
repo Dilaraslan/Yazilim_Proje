@@ -460,3 +460,78 @@ section {
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/* detail */
+
+.detail-container {
+  background-color: aliceblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, 12%);
+  padding: 45px;
+  margin: 15px 0;
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "images info"
+    "images description";
+}
+
+.box .images {
+  grid-area: images;
+}
+
+.box .images .img-holder img {
+  width: 80%;
+  display: block;
+  border-radius: 10px;
+}
+
+.box .basic-info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  color: var(--darky-blue)
+}
+
+.box .basic-info .options a {
+  color: white;
+  background-color: var(--blue);
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 15px;
+}
+
+.box .basic-info .options a:hover {
+  background-color: #0077b6;
+}
+
+.box .description {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box .description p {
+  color: #808080;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.box .basic-info .options {
+  margin: 0 0 20px;
+}
